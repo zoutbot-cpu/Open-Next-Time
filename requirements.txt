@@ -1,0 +1,3 @@
+# GUI prototype uses only Python standard library modules.
+# Optional future dependency for HID writing:
+# hidapi
