@@ -5,7 +5,7 @@ Open Next Time is a Python/Tkinter prototype for a safer open keyboard configura
 Current target:
 
 ```text
-VS11K09A / X-98-GMKB
+Next Time NT980 / VS11K09A / X-98-GMKB
 Wired USB VID:PID: 320F:5055
 2.4GHz dongle VID:PID: 320F:5088
 ```
