@@ -1,0 +1,157 @@
+{
+  "name": "VS11K09A / X-98-GMKB",
+  "vid_pid_wired": "320F:5055",
+  "vid_pid_dongle": "320F:5088",
+  "notes": [
+    "Keys are placed left-to-right per row in order.",
+    "width/height are in units (1u = standard key). Default: width=1.0, height=1.0.",
+    "gap_left: extra space to the left of this key, in units. Default: 0.0",
+    "gap_top: extra space above this key, in units. Default: 0.0",
+    "Keys with the same row_id are placed in the same row.",
+    "Tall keys (height > 1) overlap into the next row automatically."
+  ],
+  "rows": [
+    {
+      "row_id": 0,
+      "keys": [
+        {"label": "Esc",   "cli": "esc"},
+
+        {"label": "F1",    "cli": "f1",          "gap_left": 1.2},
+        {"label": "F2",    "cli": "f2"},
+        {"label": "F3",    "cli": "f3"},
+        {"label": "F4",    "cli": "f4"},
+
+        {"label": "F5",    "cli": "f5",          "gap_left": 0.5},
+        {"label": "F6",    "cli": "f6"},
+        {"label": "F7",    "cli": "f7"},
+        {"label": "F8",    "cli": "f8"},
+
+        {"label": "F9",    "cli": "f9",          "gap_left": 0.5},
+        {"label": "F10",   "cli": "f10"},
+        {"label": "F11",   "cli": "f11"},
+        {"label": "F12",   "cli": "f12"},
+
+        {"label": "Del",   "cli": "delete",      "gap_left": 0.75},
+        {"label": "Ins",   "cli": "insert",      "gap_left":0.15},
+        {"label": "PgUp",  "cli": "pageup"},
+        {"label": "PgDn",  "cli": "pagedown",      "gap_left":0.15}
+      ]
+    },
+    {
+      "row_id": 1,
+      "keys": [
+        {"label": "`",     "cli": "grave"},
+        {"label": "1",     "cli": "1"},
+        {"label": "2",     "cli": "2"},
+        {"label": "3",     "cli": "3"},
+        {"label": "4",     "cli": "4"},
+        {"label": "5",     "cli": "5"},
+        {"label": "6",     "cli": "6"},
+        {"label": "7",     "cli": "7"},
+        {"label": "8",     "cli": "8"},
+        {"label": "9",     "cli": "9"},
+        {"label": "0",     "cli": "0"},
+        {"label": "-",     "cli": "minus"},
+        {"label": "=",     "cli": "equals"},
+        {"label": "Bksp",  "cli": "backspace",   "width": 2.0},
+        
+        {"label": "NLk",   "cli": "numlock",     "gap_left": 0.75},
+        {"label": "N/",    "cli": "kp_slash",      "gap_left":0.15},
+        {"label": "N*",    "cli": "kp_asterisk"},
+        {"label": "N-",    "cli": "kp_minus",      "gap_left":0.15}
+      ]
+    },
+    {
+      "row_id": 2,
+      "keys": [
+        {"label": "Tab",   "cli": "tab",         "width": 1.5},
+        {"label": "Q",     "cli": "q"},
+        {"label": "W",     "cli": "w"},
+        {"label": "E",     "cli": "e"},
+        {"label": "R",     "cli": "r"},
+        {"label": "T",     "cli": "t"},
+        {"label": "Y",     "cli": "y"},
+        {"label": "U",     "cli": "u"},
+        {"label": "I",     "cli": "i"},
+        {"label": "O",     "cli": "o"},
+        {"label": "P",     "cli": "p"},
+        {"label": "[",     "cli": "leftbracket"},
+        {"label": "]",     "cli": "rightbracket"},
+        {"label": "\\",    "cli": "backslash",   "width": 1.5},
+
+        {"label": "N7",    "cli": "kp_7",        "gap_left": 0.75},
+        {"label": "N8",    "cli": "kp_8",      "gap_left":0.15},
+        {"label": "N9",    "cli": "kp_9"},
+        {"label": "N+",    "cli": "kp_plus",      "gap_left":0.15,     "height": 2.0}
+      ]
+    },
+    {
+      "row_id": 3,
+      "keys": [
+        {"label": "Caps",  "cli": "capslock",    "width": 1.75},
+        {"label": "A",     "cli": "a"},
+        {"label": "S",     "cli": "s"},
+        {"label": "D",     "cli": "d"},
+        {"label": "F",     "cli": "f"},
+        {"label": "G",     "cli": "g"},
+        {"label": "H",     "cli": "h"},
+        {"label": "J",     "cli": "j"},
+        {"label": "K",     "cli": "k"},
+        {"label": "L",     "cli": "l"},
+        {"label": ";",     "cli": "semicolon"},
+        {"label": "'",     "cli": "quote"},
+        {"label": "Enter", "cli": "enter",       "width": 2.4},
+
+        {"label": "N4",    "cli": "kp_4",        "gap_left": 0.75},
+        {"label": "N5",    "cli": "kp_5",      "gap_left":0.15},
+        {"label": "N6",    "cli": "kp_6"}
+
+      ]
+    },
+    {
+      "row_id": 4,
+      "keys": [
+        {"label": "Shift", "cli": "leftshift",   "width": 2.25},
+        {"label": "Z",     "cli": "z"},
+        {"label": "X",     "cli": "x"},
+        {"label": "C",     "cli": "c"},
+        {"label": "V",     "cli": "v"},
+        {"label": "B",     "cli": "b"},
+        {"label": "N",     "cli": "n"},
+        {"label": "M",     "cli": "m"},
+        {"label": ",",     "cli": "comma"},
+        {"label": ".",     "cli": "dot"},
+        {"label": "/",     "cli": "slash"},
+        {"label": "RShft", "cli": "rightshift",  "width": 1.75},
+
+        {"label": "\u2191","cli": "up",           "gap_left": 0.15, "gap_top": 0.25},
+
+        {"label": "N1",    "cli": "kp_1",        "gap_left": 0.75},
+        {"label": "N2",    "cli": "kp_2",      "gap_left":0.15},
+        {"label": "N3",    "cli": "kp_3"},
+        {"label": "NEnt",  "cli": "kp_enter",    "height": 2.15}
+
+
+      ]
+    },
+    {
+      "row_id": 5,
+      "keys": [
+        {"label": "Ctrl",  "cli": "leftctrl",    "width": 1.25},
+        {"label": "Win",   "cli": "leftgui",     "width": 1.25},
+        {"label": "Alt",   "cli": "leftalt",     "width": 1.25},
+        {"label": "Space", "cli": "space",       "width": 6.40},
+        {"label": "RAlt",  "cli": "rightalt",    "width": 1.00},
+        {"label": "Fn",    "cli": "fn",          "width": 1.00},
+        {"label": "RCtrl", "cli": "rightctrl",   "width": 1.00},
+
+        {"label": "\u2190","cli": "left",         "gap_left": 0.5, "gap_top": 0.25},
+        {"label": "\u2193","cli": "down", "gap_top": 0.25},
+        {"label": "\u2192","cli": "right", "gap_left": 0.5, "gap_top": 0.25},
+
+        {"label": "N0",    "cli": "kp_0",        "gap_left": 0.35, "width": 1.0},
+        {"label": "N.",    "cli": "kp_dot"}
+      ]
+    }
+  ]
+}
