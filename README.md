@@ -1,6 +1,6 @@
 # Open Next Time
 
-Open Next Time is a Python/Tkinter prototype for a safer open keyboard configurator.
+Open Next Time is a Python/PyQt6 prototype for a safer open keyboard configurator.
 
 Current target:
 
